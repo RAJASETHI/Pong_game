@@ -10,3 +10,7 @@
             self.setheading(self.heading() + 90)
         # self.fd(10)
 ---------------------------------------------------------------------
+  def move(self, heading):
+        self.setheading(heading)
+        self.forward(10)
+        # self.goto(self.xcor() + 10, self.ycor() + 10)

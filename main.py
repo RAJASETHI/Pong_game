@@ -1,5 +1,6 @@
 from turtle import Turtle, Screen
 
+from ball import Ball
 from paddle import Paddle
 
 screen = Screen()
@@ -15,6 +16,8 @@ screen.onkeypress(left_paddle.down, "Down")
 
 screen.onkeypress(right_paddle.up, "w")
 screen.onkeypress(right_paddle.down, "s")
+
+ball=Ball()
 
 game_on = True
 while game_on:
